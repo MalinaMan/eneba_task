@@ -24,7 +24,7 @@ app.get("/test", async (req, res) => {
   }
 });
 
-app.get("/list", async (req, res) => {
+app.get("/api/list", async (req, res) => {
   try {
     const { search = "" } = req.query;
     let query = `
