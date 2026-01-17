@@ -1,0 +1,70 @@
+/* ===== Global Root Settings ===== */
+:root {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* Prevent browser light/dark artifacts */
+  background-color: transparent;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ===== Ensure Full Screen Coverage ===== */
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+/* ===== Base Body ===== */
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+}
+
+/* ===== Links ===== */
+a {
+  font-weight: 500;
+  color: #c7b9ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+/* ===== Headings ===== */
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+/* ===== Buttons ===== */
+button {
+  border-radius: 8px;
+  border: none;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #2d155f;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.25s, transform 0.15s;
+}
+
+button:hover {
+  background-color: #3b1c7a;
+  transform: translateY(-1px);
+}
+
+button:focus,
+button:focus-visible {
+  outline: none;
+}
